@@ -1,7 +1,6 @@
-﻿# tact-cis 鈥?code and data for *Chemistry decides the calibration unit*
+# tact-cis — code and data for *Chemistry decides the calibration unit*
 
-
-Typed protein鈥搇igand interaction models return one probability per (atom, interaction type) pair, but the field reports a single aggregate coverage number for the whole set. This repository supports the argument that the **calibration unit is chemistry-dependent**: five direct contact classes (H-bond, hydrophobic, 蟺, salt, halogen) cannot share one conformal risk-control threshold, and water must be treated as a sixth, water-mediated class with its own unit.
+Typed protein–ligand interaction models return one probability per (atom, interaction type) pair, but the field reports a single aggregate coverage number for the whole set. This repository supports the argument that the **calibration unit is chemistry-dependent**: five direct contact classes (H-bond, hydrophobic, π, salt, halogen) cannot share one conformal risk-control threshold, and water must be treated as a sixth, water-mediated class with its own unit.
 
 ## Contents
 
@@ -9,9 +8,8 @@ Typed protein鈥搇igand interaction models return one probability per (atom, in
 |---|---|
 | `code/src/xact/` | Python package: PDB parsing, label construction, splits, model, cross-conformal calibration, conformal risk control, metrics |
 | `code/scripts/` | run scripts for every split (5-type, 6-type water-blind, W1 water-aware, EGNN) and the PLIP / ProLIF audits |
-| `data/` | water bridge labels, PDB accessions and release dates, 58-complex PLIP audit, HSP90/DHFR/VEGFR2/ER伪 network case, checksums |
-| `results/summary/` | one JSON per split, from which Tables 1鈥? and SI Tables S1鈥揝11 are generated |
-
+| `data/` | water bridge labels, PDB accessions and release dates, 58-complex PLIP audit, HSP90/DHFR/VEGFR2/ERα network case, checksums |
+| `results/summary/` | one JSON per split, from which Tables 1–2 and SI Tables S1–S11 are generated |
 
 ## Environment
 
@@ -26,7 +24,7 @@ Python 3.10+, PyTorch 2.x, RDKit 2023.9+. All experiments ran on one NVIDIA RTX 
 
 ## Data
 
-The crystal dataset is 750 complexes / 29 targets, with per-atom labels H-bond 2828, hydrophobic 6602, 蟺 3990, salt 42, halogen 400, and 2282 water bridges in 541 complexes.
+The crystal dataset is 750 complexes / 29 targets, with per-atom labels H-bond 2828, hydrophobic 6602, π 3990, salt 42, halogen 400, and 2282 water bridges in 541 complexes.
 
 The two dataset pickles are ~75 MB and are **not** committed (`*.pkl` is ignored). Rebuild them from the raw PDB directory and `ligands.csv`:
 
@@ -63,17 +61,20 @@ Headline numbers reproduced from these files: five-type coverage 0.888 (target) 
 
 The shell scripts still contain the original cluster paths (`/home/xiao/workspace/tact`); edit `DATA`, `OUT` and `PYTHONPATH` at the top of each script for your machine. `code/scripts/rebuild_datasets.sh` documents the rebuild order.
 
+## Figure scripts
 
+`code/figures/` holds the scripts that draw Figures 1–7 and Figs. S1–S3 from `results/summary/` and `data/`. The rendered PDF and PNG files are not tracked here; they ship with the manuscript and its ESI.
 
+## Citation
 
-`CITATION.cff` carries the same metadata and is rendered by GitHub's "Cite this repository" button.
+`CITATION.cff` carries the metadata and is rendered by GitHub's "Cite this repository" button.
 
 ## Licenses
 
 - Code (`code/`): MIT, see `LICENSE`.
-- Derived data and result summaries (`data/`, `results/`, `figures/`): CC-BY-4.0, see `LICENSE-DATA`.
+- Derived data and result summaries (`data/`, `results/`): CC-BY-4.0, see `LICENSE-DATA`.
 - PDB structures are not redistributed; obtain them from RCSB under the PDB terms of use.
 
 ## Contact
 
-Xiongjie Xiao (xiaoxj007@outlook.com),  鈥?Key Laboratory of Magnetic Resonance in Biological Systems, Innovation Academy for Precision Measurement of Science and Technology, Chinese Academy of Sciences.
+Xiongjie Xiao (xiaoxj007@outlook.com) — Key Laboratory of Magnetic Resonance in Biological Systems, Innovation Academy for Precision Measurement of Science and Technology, Chinese Academy of Sciences.
