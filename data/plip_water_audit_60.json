@@ -1,0 +1,703 @@
+{
+  "summary": {
+    "n": 58,
+    "tp": 39,
+    "fp": 18,
+    "fn": 53,
+    "precision": 0.6842105263157895,
+    "recall": 0.42391304347826086,
+    "f1": 0.523489932885906,
+    "both_complex": 32
+  },
+  "rows": [
+    {
+      "target": "A2A",
+      "pdb": "5IU8",
+      "ccd": "CLR",
+      "plip_atoms": [],
+      "our_atoms": [
+        27
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "A2A",
+      "pdb": "5IU8",
+      "ccd": "6DZ",
+      "plip_atoms": [
+        10
+      ],
+      "our_atoms": [
+        13,
+        20
+      ],
+      "plip_bridges": 2
+    },
+    {
+      "target": "ABL1",
+      "pdb": "5HU9",
+      "ccd": "66K",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "ABL1",
+      "pdb": "3QRJ",
+      "ccd": "919",
+      "plip_atoms": [
+        7
+      ],
+      "our_atoms": [
+        29
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "ACE",
+      "pdb": "6F9U",
+      "ccd": "D0W",
+      "plip_atoms": [
+        34
+      ],
+      "our_atoms": [
+        30,
+        34
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "ACE",
+      "pdb": "6F9R",
+      "ccd": "D0W",
+      "plip_atoms": [
+        29,
+        33,
+        34
+      ],
+      "our_atoms": [
+        33,
+        34
+      ],
+      "plip_bridges": 4
+    },
+    {
+      "target": "AKT1",
+      "pdb": "3MVH",
+      "ccd": "WFE",
+      "plip_atoms": [
+        18
+      ],
+      "our_atoms": [
+        14,
+        18
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "AKT1",
+      "pdb": "3CQW",
+      "ccd": "CQW",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "AR",
+      "pdb": "2AX8",
+      "ccd": "FHM",
+      "plip_atoms": [],
+      "our_atoms": [
+        21,
+        22
+      ],
+      "plip_bridges": 0
+    },
+    {
+      "target": "AR",
+      "pdb": "2AMB",
+      "ccd": "17H",
+      "plip_atoms": [
+        21
+      ],
+      "our_atoms": [
+        21
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "BCL2",
+      "pdb": "6QGG",
+      "ccd": "J1H",
+      "plip_atoms": [
+        27,
+        31
+      ],
+      "our_atoms": [
+        27,
+        30
+      ],
+      "plip_bridges": 3
+    },
+    {
+      "target": "BCL2",
+      "pdb": "4AQ3",
+      "ccd": "398",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "CA2",
+      "pdb": "2FOU",
+      "ccd": "B22",
+      "plip_atoms": [],
+      "our_atoms": [
+        1
+      ],
+      "plip_bridges": 3
+    },
+    {
+      "target": "CA2",
+      "pdb": "6ROE",
+      "ccd": "FBT",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 1
+    },
+    {
+      "target": "CDK2",
+      "pdb": "4GCJ",
+      "ccd": "X64",
+      "plip_atoms": [
+        3,
+        21
+      ],
+      "our_atoms": [
+        3,
+        21
+      ],
+      "plip_bridges": 2
+    },
+    {
+      "target": "CDK2",
+      "pdb": "7RXO",
+      "ccd": "80E",
+      "plip_atoms": [
+        20
+      ],
+      "our_atoms": [
+        20
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "COX2",
+      "pdb": "5IKR",
+      "ccd": "ID8",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "COX2",
+      "pdb": "5IKT",
+      "ccd": "TLF",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "Caspase3",
+      "pdb": "2CDR",
+      "ccd": "MY1",
+      "plip_atoms": [
+        10
+      ],
+      "our_atoms": [],
+      "plip_bridges": 1
+    },
+    {
+      "target": "Caspase3",
+      "pdb": "1NME",
+      "ccd": "159",
+      "plip_atoms": [],
+      "our_atoms": [
+        16
+      ],
+      "plip_bridges": 0
+    },
+    {
+      "target": "CathepsinK",
+      "pdb": "1VSN",
+      "ccd": "NFT",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "CathepsinK",
+      "pdb": "2R6N",
+      "ccd": "CKE",
+      "plip_atoms": [
+        24
+      ],
+      "our_atoms": [
+        20
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "DHFR",
+      "pdb": "4QJC",
+      "ccd": "NDP",
+      "plip_atoms": [
+        22,
+        24,
+        31
+      ],
+      "our_atoms": [
+        1,
+        24,
+        25,
+        31
+      ],
+      "plip_bridges": 3
+    },
+    {
+      "target": "DHFR",
+      "pdb": "4QHV",
+      "ccd": "NDP",
+      "plip_atoms": [
+        2,
+        3,
+        20,
+        24,
+        31
+      ],
+      "our_atoms": [
+        2,
+        10,
+        12,
+        20,
+        22,
+        24,
+        26,
+        29,
+        31,
+        35,
+        39,
+        40,
+        47
+      ],
+      "plip_bridges": 5
+    },
+    {
+      "target": "EGFR",
+      "pdb": "6TG1",
+      "ccd": "N82",
+      "plip_atoms": [],
+      "our_atoms": [
+        36,
+        38,
+        44
+      ],
+      "plip_bridges": 0
+    },
+    {
+      "target": "EGFR",
+      "pdb": "6TFY",
+      "ccd": "N7Z",
+      "plip_atoms": [
+        27
+      ],
+      "our_atoms": [
+        27,
+        29
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "ERa",
+      "pdb": "8BZC",
+      "ccd": "GEH",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "ERa",
+      "pdb": "7BAB",
+      "ccd": "T6W",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "FXa",
+      "pdb": "2VVV",
+      "ccd": "H21",
+      "plip_atoms": [
+        29
+      ],
+      "our_atoms": [
+        22
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "FXa",
+      "pdb": "4Y6D",
+      "ccd": "48U",
+      "plip_atoms": [
+        24
+      ],
+      "our_atoms": [
+        19,
+        24
+      ],
+      "plip_bridges": 2
+    },
+    {
+      "target": "GR",
+      "pdb": "1NHZ",
+      "ccd": "486",
+      "plip_atoms": [
+        0
+      ],
+      "our_atoms": [
+        0,
+        26
+      ],
+      "plip_bridges": 2
+    },
+    {
+      "target": "GR",
+      "pdb": "1M2Z",
+      "ccd": "DEX",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "HMGCR",
+      "pdb": "2Q6B",
+      "ccd": "HR2",
+      "plip_atoms": [
+        21,
+        26
+      ],
+      "our_atoms": [
+        26
+      ],
+      "plip_bridges": 3
+    },
+    {
+      "target": "HMGCR",
+      "pdb": "1HWJ",
+      "ccd": "ADP",
+      "plip_atoms": [],
+      "our_atoms": [
+        1,
+        2,
+        7
+      ],
+      "plip_bridges": 0
+    },
+    {
+      "target": "HSP90",
+      "pdb": "7S9H",
+      "ccd": "7PP",
+      "plip_atoms": [
+        2,
+        5,
+        28
+      ],
+      "our_atoms": [
+        2,
+        4,
+        5
+      ],
+      "plip_bridges": 5
+    },
+    {
+      "target": "HSP90",
+      "pdb": "1BYQ",
+      "ccd": "ADP",
+      "plip_atoms": [
+        15,
+        23
+      ],
+      "our_atoms": [
+        2,
+        3,
+        6,
+        13,
+        15,
+        19,
+        22,
+        23
+      ],
+      "plip_bridges": 6
+    },
+    {
+      "target": "JAK2",
+      "pdb": "7Q7K",
+      "ccd": "9I5",
+      "plip_atoms": [],
+      "our_atoms": [
+        0
+      ],
+      "plip_bridges": 0
+    },
+    {
+      "target": "JAK2",
+      "pdb": "8B8U",
+      "ccd": "T7I",
+      "plip_atoms": [],
+      "our_atoms": [
+        23,
+        24
+      ],
+      "plip_bridges": 3
+    },
+    {
+      "target": "M1",
+      "pdb": "6ZG4",
+      "ccd": "QK8",
+      "plip_atoms": [
+        5
+      ],
+      "our_atoms": [
+        1
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "M1",
+      "pdb": "6ZG9",
+      "ccd": "QK2",
+      "plip_atoms": [
+        23
+      ],
+      "our_atoms": [
+        23
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "MET",
+      "pdb": "3ZZE",
+      "ccd": "6XP",
+      "plip_atoms": [],
+      "our_atoms": [
+        13
+      ],
+      "plip_bridges": 0
+    },
+    {
+      "target": "MET",
+      "pdb": "3ZXZ",
+      "ccd": "KRW",
+      "plip_atoms": [
+        0,
+        5
+      ],
+      "our_atoms": [
+        0,
+        5
+      ],
+      "plip_bridges": 6
+    },
+    {
+      "target": "PDE5",
+      "pdb": "4OEX",
+      "ccd": "5EO",
+      "plip_atoms": [
+        3
+      ],
+      "our_atoms": [
+        3
+      ],
+      "plip_bridges": 2
+    },
+    {
+      "target": "PDE5",
+      "pdb": "7FAQ",
+      "ccd": "2OI",
+      "plip_atoms": [],
+      "our_atoms": [
+        13
+      ],
+      "plip_bridges": 0
+    },
+    {
+      "target": "PI3Ka",
+      "pdb": "4JPS",
+      "ccd": "1LT",
+      "plip_atoms": [
+        15
+      ],
+      "our_atoms": [],
+      "plip_bridges": 1
+    },
+    {
+      "target": "PI3Ka",
+      "pdb": "8SBC",
+      "ccd": "ZTV",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "PPARg",
+      "pdb": "3V9T",
+      "ccd": "17L",
+      "plip_atoms": [
+        6,
+        21
+      ],
+      "our_atoms": [
+        6,
+        21
+      ],
+      "plip_bridges": 2
+    },
+    {
+      "target": "PPARg",
+      "pdb": "6IZM",
+      "ccd": "B0X",
+      "plip_atoms": [
+        10
+      ],
+      "our_atoms": [
+        10
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "SRC",
+      "pdb": "2SRC",
+      "ccd": "ANP",
+      "plip_atoms": [
+        1,
+        9,
+        17,
+        19,
+        29
+      ],
+      "our_atoms": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        9,
+        10,
+        19,
+        26
+      ],
+      "plip_bridges": 7
+    },
+    {
+      "target": "SRC",
+      "pdb": "1O4R",
+      "ccd": "787",
+      "plip_atoms": [
+        11
+      ],
+      "our_atoms": [
+        11
+      ],
+      "plip_bridges": 2
+    },
+    {
+      "target": "Thrombin",
+      "pdb": "6T53",
+      "ccd": "K73",
+      "plip_atoms": [
+        0,
+        26
+      ],
+      "our_atoms": [
+        26
+      ],
+      "plip_bridges": 2
+    },
+    {
+      "target": "Thrombin",
+      "pdb": "3SV2",
+      "ccd": "P05",
+      "plip_atoms": [
+        0,
+        25
+      ],
+      "our_atoms": [
+        0
+      ],
+      "plip_bridges": 2
+    },
+    {
+      "target": "VDR",
+      "pdb": "1DB1",
+      "ccd": "VDX",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "VDR",
+      "pdb": "3W0A",
+      "ccd": "DS5",
+      "plip_atoms": [
+        37,
+        38
+      ],
+      "our_atoms": [
+        37,
+        38
+      ],
+      "plip_bridges": 2
+    },
+    {
+      "target": "VEGFR2",
+      "pdb": "3VHE",
+      "ccd": "42Q",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "VEGFR2",
+      "pdb": "3CJF",
+      "ccd": "SAV",
+      "plip_atoms": [],
+      "our_atoms": [],
+      "plip_bridges": 0
+    },
+    {
+      "target": "p38",
+      "pdb": "4AA0",
+      "ccd": "AA0",
+      "plip_atoms": [
+        37
+      ],
+      "our_atoms": [
+        37
+      ],
+      "plip_bridges": 1
+    },
+    {
+      "target": "p38",
+      "pdb": "9CJ1",
+      "ccd": "NIL",
+      "plip_atoms": [
+        10
+      ],
+      "our_atoms": [
+        28
+      ],
+      "plip_bridges": 1
+    }
+  ]
+}

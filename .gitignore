@@ -1,0 +1,15 @@
+﻿# large datasets
+*.pkl
+*.pdb
+# python
+__pycache__/
+*.pyc
+.venv/
+# run noise
+*.log
+# local office backups
+~$*.docx
+*.bak_*
+# OS
+.DS_Store
+Thumbs.db

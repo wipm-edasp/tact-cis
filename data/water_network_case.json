@@ -1,0 +1,162 @@
+{
+  "HSP90": {
+    "n_complexes": 24,
+    "with_bridge": 24,
+    "total_bridges": 203,
+    "top_residues": [
+      {
+        "residue": "GLY97.A",
+        "fraction": 0.9166666666666666
+      },
+      {
+        "residue": "LEU48.A",
+        "fraction": 0.875
+      },
+      {
+        "residue": "SER52.A",
+        "fraction": 0.7916666666666666
+      },
+      {
+        "residue": "THR184.A",
+        "fraction": 0.6666666666666666
+      },
+      {
+        "residue": "ASN51.A",
+        "fraction": 0.625
+      },
+      {
+        "residue": "LYS58.A",
+        "fraction": 0.25
+      },
+      {
+        "residue": "GLY135.A",
+        "fraction": 0.20833333333333334
+      },
+      {
+        "residue": "ASP54.A",
+        "fraction": 0.16666666666666666
+      },
+      {
+        "residue": "ILE91.A",
+        "fraction": 0.16666666666666666
+      },
+      {
+        "residue": "GLY137.A",
+        "fraction": 0.16666666666666666
+      },
+      {
+        "residue": "PHE138.A",
+        "fraction": 0.125
+      },
+      {
+        "residue": "GLN23.A",
+        "fraction": 0.125
+      }
+    ]
+  },
+  "DHFR": {
+    "n_complexes": 70,
+    "with_bridge": 67,
+    "total_bridges": 746,
+    "top_residues": [
+      {
+        "residue": "SER119.A",
+        "fraction": 0.4857142857142857
+      },
+      {
+        "residue": "ASN19.A",
+        "fraction": 0.45714285714285713
+      },
+      {
+        "residue": "ASP145.A",
+        "fraction": 0.45714285714285713
+      },
+      {
+        "residue": "SER118.A",
+        "fraction": 0.4142857142857143
+      },
+      {
+        "residue": "GLY20.A",
+        "fraction": 0.4
+      },
+      {
+        "residue": "SER59.A",
+        "fraction": 0.38571428571428573
+      },
+      {
+        "residue": "LYS55.A",
+        "fraction": 0.34285714285714286
+      },
+      {
+        "residue": "THR136.A",
+        "fraction": 0.32857142857142857
+      },
+      {
+        "residue": "PHE134.A",
+        "fraction": 0.32857142857142857
+      },
+      {
+        "residue": "LEU93.A",
+        "fraction": 0.3142857142857143
+      },
+      {
+        "residue": "THR146.A",
+        "fraction": 0.3142857142857143
+      },
+      {
+        "residue": "GLU123.A",
+        "fraction": 0.3
+      }
+    ]
+  },
+  "VEGFR2": {
+    "n_complexes": 33,
+    "with_bridge": 13,
+    "total_bridges": 25,
+    "top_residues": [
+      {
+        "residue": "ASN923.A",
+        "fraction": 0.15151515151515152
+      },
+      {
+        "residue": "GLU885.A",
+        "fraction": 0.06060606060606061
+      },
+      {
+        "residue": "ASP1046.A",
+        "fraction": 0.06060606060606061
+      },
+      {
+        "residue": "LYS868.A",
+        "fraction": 0.06060606060606061
+      },
+      {
+        "residue": "ASN921.A",
+        "fraction": 0.06060606060606061
+      },
+      {
+        "residue": "PHE1047.A",
+        "fraction": 0.030303030303030304
+      },
+      {
+        "residue": "ASP1044.A",
+        "fraction": 0.030303030303030304
+      }
+    ]
+  },
+  "ERa": {
+    "n_complexes": 12,
+    "with_bridge": 1,
+    "total_bridges": 2,
+    "top_residues": [
+      {
+        "residue": "ARG394.A",
+        "fraction": 0.08333333333333333
+      },
+      {
+        "residue": "LEU387.A",
+        "fraction": 0.08333333333333333
+      }
+    ]
+  }
+}

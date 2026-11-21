@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code, cite the manuscript and this repository."
+title: "Chemistry decides the calibration unit: five direct and one water-mediated interaction class"
+type: software
+version: "0.1.0"
+repository-code: "https://github.com/your-account/tact-cis"
+url: "https://github.com/your-account/tact-cis"
+date-released: "2026-11-11"
+license: MIT
+authors:
+  - family-names: Xiao
+    given-names: Xiongjie
+    affiliation: "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, National Center for Magnetic Resonance in Wuhan, Wuhan Institute of Physics and Mathematics, Chinese Academy of Sciences, Wuhan 430071, China; University of Chinese Academy of Sciences, Beijing 100049, China"
+  - family-names: Huang
+    given-names: Yi
+    affiliation: "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, National Center for Magnetic Resonance in Wuhan, Wuhan Institute of Physics and Mathematics, Chinese Academy of Sciences, Wuhan 430071, China"
+  - family-names: Jiang
+    given-names: Bin
+    affiliation: "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, National Center for Magnetic Resonance in Wuhan, Wuhan Institute of Physics and Mathematics, Chinese Academy of Sciences, Wuhan 430071, China; University of Chinese Academy of Sciences, Beijing 100049, China; Wuhan National Laboratory for Optoelectronics, Huazhong University of Science and Technology, Wuhan, China; Optics Valley Laboratory, Wuhan 430074, China"
+  - family-names: Zhang
+    given-names: Xu
+    affiliation: "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, National Center for Magnetic Resonance in Wuhan, Wuhan Institute of Physics and Mathematics, Chinese Academy of Sciences, Wuhan 430071, China; University of Chinese Academy of Sciences, Beijing 100049, China; Wuhan National Laboratory for Optoelectronics, Huazhong University of Science and Technology, Wuhan, China; Optics Valley Laboratory, Wuhan 430074, China"
+    email: zhangxu@wipm.ac.cn
+  - family-names: Liu
+    given-names: Maili
+    affiliation: "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, National Center for Magnetic Resonance in Wuhan, Wuhan Institute of Physics and Mathematics, Chinese Academy of Sciences, Wuhan 430071, China; University of Chinese Academy of Sciences, Beijing 100049, China; Wuhan National Laboratory for Optoelectronics, Huazhong University of Science and Technology, Wuhan, China; Optics Valley Laboratory, Wuhan 430074, China"
+    email: ml.liu@apm.ac.cn
+
+abstract: "Code and derived data for a study showing that the calibration unit of a typed protein-ligand interaction set is chemistry-dependent: five direct contact classes plus water as a sixth, water-mediated class. Contains the xact Python package, run scripts, label files, per-split summary JSONs and figure-generating scripts for 750 crystal complexes across 29 targets."
+
+keywords:
+  - protein-ligand interactions
+  - conformal prediction
+  - uncertainty quantification
+  - water-mediated interactions
+  - interaction fingerprints
+  - conformal risk control
+
