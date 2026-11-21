@@ -3,8 +3,8 @@ message: "If you use this code, cite the manuscript and this repository."
 title: "Chemistry decides the calibration unit: five direct and one water-mediated interaction class"
 type: software
 version: "0.1.0"
-repository-code: "https://github.com/your-account/tact-cis"
-url: "https://github.com/your-account/tact-cis"
+repository-code: "https://github.com/wipm-edasp/tact-cis"
+url: "https://github.com/wipm-edasp/tact-cis"
 date-released: "2026-11-11"
 license: MIT
 authors:

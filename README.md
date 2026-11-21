@@ -82,7 +82,7 @@ The shell scripts still contain the original cluster paths (`/home/xiao/workspac
   author = {Xiao, Xiongjie and Huang, Yi and Jiang, Bin and Zhang, Xu and Liu, Maili},
   year   = {2026},
   doi    = {10.5281/zenodo.XXXXXXX},
-  url    = {https://github.com/your-account/tact-cis}
+  url    = {https://github.com/wipm-edasp/tact-cis}
 }
 ```
 
