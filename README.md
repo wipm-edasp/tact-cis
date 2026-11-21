@@ -1,10 +1,5 @@
 # tact-cis — code and data for *Chemistry decides the calibration unit*
 
-Code, derived data and result summaries for:
-
-> **Chemistry decides the calibration unit: five direct and one water-mediated interaction class**
-> Xiongjie Xiao, Yi Huang, Bin Jiang, Xu Zhang, Maili Liu
-> Target journal: *Chemical Science* (Edge Article)
 
 Typed protein–ligand interaction models return one probability per (atom, interaction type) pair, but the field reports a single aggregate coverage number for the whole set. This repository supports the argument that the **calibration unit is chemistry-dependent**: five direct contact classes (H-bond, hydrophobic, π, salt, halogen) cannot share one conformal risk-control threshold, and water must be treated as a sixth, water-mediated class with its own unit.
 
@@ -14,11 +9,9 @@ Typed protein–ligand interaction models return one probability per (atom, inte
 |---|---|
 | `code/src/xact/` | Python package: PDB parsing, label construction, splits, model, cross-conformal calibration, conformal risk control, metrics |
 | `code/scripts/` | run scripts for every split (5-type, 6-type water-blind, W1 water-aware, EGNN) and the PLIP / ProLIF audits |
-| `code/figures/` | scripts that generate Figures 1–7 and Figs. S1–S3 |
 | `data/` | water bridge labels, PDB accessions and release dates, 58-complex PLIP audit, HSP90/DHFR/VEGFR2/ERα network case, checksums |
 | `results/summary/` | one JSON per split, from which Tables 1–2 and SI Tables S1–S11 are generated |
-| `figures/` | final Figures 1–7 and Figs. S1–S3 (PDF vector + PNG) |
-| `paper/` | submitted manuscript and ESI (PDF) |
+
 
 ## Environment
 
@@ -70,21 +63,8 @@ Headline numbers reproduced from these files: five-type coverage 0.888 (target) 
 
 The shell scripts still contain the original cluster paths (`/home/xiao/workspace/tact`); edit `DATA`, `OUT` and `PYTHONPATH` at the top of each script for your machine. `code/scripts/rebuild_datasets.sh` documents the rebuild order.
 
-## Figures
 
-`code/figures/make_figures_refined.py` (Figures 1–7), `make_figures_merged.py` (Figs. S1–S2) and `make_figures_si.py` (Fig. S3) read the summaries in `results/summary/` and the label files in `data/`; `renumber_figures.py` and `apply_fig_citations.py` handle numbering and in-text citation keys. Output filenames match those in `figures/`.
 
-## Citation
-
-```bibtex
-@software{tactcis2026,
-  title  = {tact-cis: code and data for "Chemistry decides the calibration unit"},
-  author = {Xiao, Xiongjie and Huang, Yi and Jiang, Bin and Zhang, Xu and Liu, Maili},
-  year   = {2026},
-  doi    = {10.5281/zenodo.XXXXXXX},
-  url    = {https://github.com/wipm-edasp/tact-cis}
-}
-```
 
 `CITATION.cff` carries the same metadata and is rendered by GitHub's "Cite this repository" button.
 
@@ -96,4 +76,4 @@ The shell scripts still contain the original cluster paths (`/home/xiao/workspac
 
 ## Contact
 
-Xu Zhang (zhangxu@wipm.ac.cn), Maili Liu (ml.liu@apm.ac.cn) — Key Laboratory of Magnetic Resonance in Biological Systems, Wuhan Institute of Physics and Mathematics, Chinese Academy of Sciences.
+Xiongjie Xiao (xiaoxj007@outlook.com),  — Key Laboratory of Magnetic Resonance in Biological Systems, Innovation Academy for Precision Measurement of Science and Technology, Chinese Academy of Sciences.
