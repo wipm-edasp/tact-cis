@@ -16,4 +16,4 @@ python code/figures/make_figures_merged.py
 python code/figures/make_figures_si.py
 ```
 
-Inputs are `results/summary/*.json` and `data/*.json`; outputs land next to the scripts unless `OUT` is edited at the top of each file. The final PDF/PNG files shipped in `../figures/` were produced from these scripts and then converted to 600 dpi TIFF for the RSC submission.
+Inputs are `results/summary/*.json` and `data/*.json`; outputs land next to the scripts unless `OUT` is edited at the top of each file. These scripts produced the Figures 1–7 and S1–S3 files that were converted to 600 dpi TIFF for the RSC submission; the rendered PDF/PNG are not tracked in this repository.
